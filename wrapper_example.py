@@ -21,6 +21,5 @@ for x in range(20):
     terminated = False 
     while not (truncated or terminated):
         observation, reward, terminated, truncated, info = env.step(env.action_space.sample())
-        env.render()
 
 env.close()

@@ -1,3 +1,4 @@
 comet_ml
 gymnasium[classic_control]
 moviepy
+imageio_ffmpeg
