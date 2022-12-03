@@ -5,9 +5,9 @@ import os
 
 
 experiment = Experiment(
-    api_key="DfZ7JDPhFMkIxYkCvRHIuHq0B",
+    api_key=os.environ['COMET_API_KEY'],
     project_name="gym-test",
-    workspace="sherpan",
+    workspace="willdudley",
 )
 
 
